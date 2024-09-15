@@ -1,0 +1,58 @@
+
+
+.container-style{
+    height: 100%;
+    position: relative;
+    
+}
+.description{
+  
+    position: absolute;
+
+    color: aliceblue;
+    top:20%;
+    
+   padding-left: 2vw;
+   padding-right: 2vw;
+   
+    
+    width: 100%;
+    /* max-width: 400px; */
+    height: auto;
+    
+
+}
+.box{
+    background-color: rgba(147, 147, 147, 0.377);
+    border-radius: 10px;
+    padding: 5vw;
+}
+.description h1{
+    font-size: 4vw;
+}
+.description p{
+    font-size: 3vw;
+}
+.body1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.body1 span{
+    width: 45px;
+    height: 12px;
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .description h1{
+        font-size: 10vw;
+    }
+    .description p{
+        font-size: 6vw;
+    }
+}
