@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Slider from "./components/Slider";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
+import About from "./components/About/about";
 import "./App.css";
 // import { useAuth0 } from "@auth0/auth0-react";
 
@@ -34,7 +35,9 @@ function App() {
           />
           <Route path="/startups" element={<Startup />} />
           <Route path="/AddNewStartup" element={<NewStartup />} />
+          <Route path="/about" element={<About />} />
         </Routes>
+         {/* About route */}
       </Router>
       <Footer />
     </div>
