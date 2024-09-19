@@ -1,5 +1,5 @@
 import React from "react";
-import '../Home/Home.css'
+import "../Home/Home.css";
 
 export default function Home() {
   const Styles = {
@@ -129,8 +129,6 @@ export default function Home() {
               </div>
             </div>
 
-            
-
             <div className="card " style={Styles}>
               <img src="./2.png" className="card-img-top" alt="..." />
               <div className="card-body ">
@@ -167,36 +165,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="main">
-        <h1 className="header">About Ministry of Ayush</h1>
-        <p>
-          All About us... The Ministry of Ayush was formed on the 9th of
-          November 2014 with a vision of reviving the profound knowledge of our
-          ancient systems of medicine and ensuring the optimal development and
-          propagation of the Ayush systems of healthcare. Earlier, the
-          Department of Indian System of Medicine and Homoeopathy (ISM&H) formed
-          in 1995, was responsible for the development of these systems. It was
-          then renamed as the Department of Ayurveda, Yoga, and Naturopathy,
-          Unani, Siddha and Homoeopathy (Ayush) in November 2003 with focused
-          attention towards education and research in Ayurveda, Yoga and
-          Naturopathy, Unani, Siddha, and Homoeopathy.
-        </p>
-      </div>
-
-
-      <div class="text-center">
-
-      <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasWithBothOptions"
-        aria-controls="offcanvasWithBothOptions"
-      >
-        Know The Minister
-      </button>
-      </div>
-
       <div
         class="offcanvas offcanvas-start"
         data-bs-scroll="true"

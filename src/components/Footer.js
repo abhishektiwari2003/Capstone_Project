@@ -13,12 +13,6 @@ export default function Footer() {
             className="d-flex justify-content-between p-1"
             style={{ backgroundColor: "#ffffff" }}
           >
-            <div className="me-5">
-              <div className="fotterImg">
-                <img src="./Logo.png" alt="Bootstrap" width="" height="48" />
-
-              </div>
-            </div>
             <div>
               <a href="/" className="text-white me-4">
                 <i className="fab fa-facebook-f"></i>
@@ -44,7 +38,9 @@ export default function Footer() {
             <div className="container text-center text-md-start mt-5">
               <div className="row mt-3">
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold">Ayush Startup Portal</h6>
+                  <h6 className="text-uppercase fw-bold">
+                    Startup Accelerator Channel
+                  </h6>
                   <hr
                     className="mb-4 mt-0 d-inline-block mx-auto"
                     style={{
@@ -150,9 +146,7 @@ export default function Footer() {
           <div
             className="text-center p-3"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-          >
-
-          </div>
+          ></div>
         </footer>
       </div>
     </div>

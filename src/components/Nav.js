@@ -10,19 +10,7 @@ export default function Nav() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src="./Logo.png" alt="Bootstrap" width="10%" height="auto" />
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Azadi-Ka-Amrit-Mahotsav-Logo.png"
-              alt="Bootstrap"
-              width="10%"
-              height="auto"
-            />
-            <img
-              src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2020/08/11134138/Ministry-of-AYUSH-logo.jpg"
-              alt="Bootstrap"
-              width="10%"
-              height="auto"
-            />
+            <img src="./Logo.png" alt="Bootstrap" width="50%" height="auto" />
           </a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -140,7 +128,7 @@ export default function Nav() {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/resources">
                   Resources
                 </a>
               </li>
