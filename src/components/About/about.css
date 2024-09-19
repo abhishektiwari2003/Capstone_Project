@@ -1,0 +1,18 @@
+.main{
+    margin: 4vw;
+    text-align: justify;
+    padding: auto;
+    
+}
+.header{
+    text-align: center;
+}
+.StartupEcoSystem,.Scheme{
+    margin: 25px;
+    padding: 18px;
+
+}
+.card-body{
+    text-align: center;
+
+}
