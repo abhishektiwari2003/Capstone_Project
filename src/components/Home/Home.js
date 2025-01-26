@@ -1,10 +1,7 @@
 import React from "react";
 import "../Home/Home.css";
-<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
-=======
 import {Link} from "react-router-dom";
->>>>>>> 815048467378330c3ece9fa3bc50efa91903963b
 
 export default function Home() {
   const navigate = useNavigate();
@@ -29,18 +26,15 @@ export default function Home() {
         <h2 className="hero-subtitle">
           Raise fund. Start syndicate. Drive growth
         </h2>
-<<<<<<< HEAD
         <button className="btn btn-success mx-2" onClick={() => navigate('/InvestorPage')} >For Investor</button>
         <button className="btn btn-info mx-2" onClick={() => navigate('/startupPage')}
         >For Startup</button>
-=======
         <Link to="/investor" className="btn btn-info mx-2" style={buttonStyle}>
           For Investor
         </Link>
         <Link to="/forfounders" className="btn btn-info mx-2" style={buttonStyle}>
           For Startup
         </Link>
->>>>>>> 815048467378330c3ece9fa3bc50efa91903963b
       </div>
 
       {/* What We Do Section */}
@@ -180,7 +174,6 @@ export default function Home() {
     </div>
       </div>
 
-<<<<<<< HEAD
       {/* CTA Buttons */}
       <div className="text-center my-5">
       <button className="btn btn-success mx-2" onClick={() => navigate('/InvestorDashboard')} >Investor-Portal</button>
@@ -192,8 +185,6 @@ export default function Home() {
 </button>
 
       </div>
-=======
->>>>>>> 815048467378330c3ece9fa3bc50efa91903963b
     </>
   );
 }
